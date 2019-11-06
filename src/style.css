@@ -40,7 +40,7 @@ body{
   .botones:hover{
     background: rgb(180, 154, 6);
     color: white;
-    cursor:pointer;
+    /*cursor:pointer; */
   }
   .margen{
     background: linear-gradient(to bottom, #9F21EB 60%, #17ECC8 100%);

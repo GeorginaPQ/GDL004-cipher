@@ -12,7 +12,9 @@
       <header>
         <p class="circulo"></p>
         <h1 class="logo">{...}</h1>
-        <h1 class="namelogo">CODE DECODE</h1> 
+        <h1 class="namelogo">CodeDecode</h1> 
+        <br>
+        <br>
       </header>       
       <p>Bienvenido a tu herramienta <br>personal...</p>
       <hr style="width:55%;">
@@ -22,39 +24,41 @@
       <button id="iniciar" class="botones">Iniciar</button>
     </section>
     <section id="margen" class="margen">
-      <h4 class="encabezados">CODE DECODE</h4>
+      <h4 class="encabezados">CodeDecode</h4>
     </section>
     <section id="pantallaCodificar" class="pantallaCodificar"
     <br>
     <p>Para empezar escribe tu palabra en<br>mayusculas sin agregar caracteres<br>especiales ni numeros.</p>
     <p>Ejemplo:<br>CLAUDIAGPQ</p> 
-    <form>
-    <input type="name"id="name" class="name" placeholder="Escribe tu palabra a codificar" name= "name" required autofocus/>
+    
+    <input type="name"id="textoCodificar" class="name" placeholder="Escribe tu palabra a codificar" name= "name" required autofocus/>
     <br>
     <p>Escribe tu numero favorito</p>    
-    <input type="password"id="numberCodificar" name="quantity" min="1" max="31"required>
-    </form>
+    <input type="number" id="offsetCodificar" name="quantity" min="1" max="31"required>
+    
     <br>
     <br>
     <button id="codificar" class="botones">Generar codigo ID</button>
     <br>
     <br>
-    <p id="desaparece" class="textoCodificado">Tu codigo ID es:</p>
+    <p id="textoCodificado" class="textoCodificado"></p>
     </section>
+    <br>
+    <br>
     <section id="pantallaDecodificar" class="pantallaDecodificar"
-       <p>Para decodificar,escribe el codigo ID en el<br>siguiente campo.</p>
-       <form>
-       <input type="name"id="clave" class="name" placeholder="Escribe codigo a decodificar" name= "name" required autofocus/>
+       <p>Para decodificar,escribe el codigo ID <br>en el siguiente campo.</p>
+      
+       <input type="name"id="textoDecodificar" class="name" placeholder="Escribe codigo a decodificar" name= "name" required autofocus/>
        <br>
        <p>Escribe tu numero favorito</p>
-       <input type="password"id="numberDecodificar" name="quantity" min="1" max="31" required>
-       </form>
+       <input type="number" id="offsetDecodificar" name="quantity" min="1" max="31" required>
+       
        <br>
        <br>
        <button type="number" id="decodificar" class="botones">Decodificar ID</button>
        <br>
        <br>
-       <p class="textoDecodificado" id="desaparece">Tu ID decodificado es:</p>
+       <p class="textoDecodificado" id="textoDecodificado"></p>
        </section>
   <footer id="menu">    
     
@@ -63,7 +67,6 @@
       <button id="ayuda" class="botonMenu">Ayuda</button>
     
   </footer> 
-
 
 
   
