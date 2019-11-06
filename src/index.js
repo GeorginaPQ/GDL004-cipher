@@ -5,7 +5,6 @@
 
 let botonIniciar= document.getElementById("iniciar");
 botonIniciar.addEventListener("click", mostrarPantallaCodificar);
-
 let botonCodificar= document.getElementById("codificar");
 botonCodificar.addEventListener("click",mostrarTextoCodificado);
 let botonDecodificar= document.getElementById("decodificar"); 
