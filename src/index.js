@@ -10,7 +10,7 @@ botonCodificar.addEventListener("click",mostrarTextoCodificado);
 let botonDecodificar= document.getElementById("decodificar"); 
 botonDecodificar.addEventListener("click", mostrarTextoDecodificado);
 let botonApantallaCodificar=document.getElementById("aPantallaCodificar");
- botonApantallaCodificar.addEventListener("click", regresarPantallaCodificar)
+ botonApantallaCodificar.addEventListener("click", regresarPantallaCodificar);
 let botonApantallaDecodificar= document.getElementById("aPantallaDecodificar"); 
 botonApantallaDecodificar.addEventListener("click", regresarPantallaDecodificar);
 //let botonAyuda= document.getElementById("ayuda"); 
@@ -23,13 +23,14 @@ function mostrarPantallaCodificar(){
     let margen= document.getElementById("margen");
     margen.style.display="block";
     let menubotones= document.getElementById("menu");
-    menubotones.style.display="block";
+    menubotones.style.display="block";z
+   
   }
 function regresarPantallaCodificar(){
     let pantallaCodificar= document.getElementById("pantallaCodificar");
     pantallaCodificar.style.display="block";
     let pantallaDecodificar= document.getElementById("pantallaDecodificar");
-    pantallaDecodificar.style.display="none"
+    pantallaDecodificar.style.display="none";
     //
     //
 //document.write
@@ -40,7 +41,7 @@ function regresarPantallaCodificar(){
     let pantallaCodificar= document.getElementById("pantallaCodificar");
     pantallaCodificar.style.display="none";
     let pantallaDecodificar= document.getElementById("pantallaDecodificar");
-    pantallaDecodificar.style.display="block"
+    pantallaDecodificar.style.display="block";
  }
  
    function mostrarTextoCodificado(){
