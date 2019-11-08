@@ -145,13 +145,17 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+CodeDecode
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+El proyecto va enfocado a la creacion de codigos de identificacion para expedientes personales en general, de tal forma que genere ID ùnicos.
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
+    productocto
+    Los usuarios son profesionales que prestan servicios y requieren generar identificadores ùnicos para sus usuarios
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+    la aplicaciòn permite de forma ràpida la creaciòn de identificadores personalizados para cada cliente, usando datos personales y encriptàndolos/desencriptàndolos para acceder a la informaciòn de cada cliente
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.

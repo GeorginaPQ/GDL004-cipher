@@ -23,7 +23,7 @@ function mostrarPantallaCodificar(){
     let margen= document.getElementById("margen");
     margen.style.display="block";
     let menubotones= document.getElementById("menu");
-    menubotones.style.display="block";z
+    menubotones.style.display="block";
    
   }
 function regresarPantallaCodificar(){
